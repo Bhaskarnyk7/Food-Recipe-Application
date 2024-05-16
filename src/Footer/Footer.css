@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainf{
+    display: flex;
+    justify-content: center;
+}
+.foter{
+    height: 300px;
+    width: 100vw;
+    background-color: #304146 ;
+    
+    
+}
+.foternames{
+    margin-top: 50px;
+    display: flex;
+    gap: 100px;
+    color: rgb(235, 228, 228);
+    font-size: small;
+}
+.line {
+    border-bottom: 1px solid rgb(231, 228, 228);
+    margin-top: 50px;
+    width: 90%;
+    margin: 50px 50px 30px 50px;
+}
+.icons{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 35px;
+   font-size: 26px;
+   color: white;
+  
+   
+}
+.rights{
+    display: flex;
+    justify-content: center;
+    color: white;
+}

@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.chinafooditems{
+    display: flex;
+    
+    
+    
+}
+.row1{
+   display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  position: relative;
+  left: -100px;
+  
+
+   
+}
+.pic111{
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+    background-image: url(momos.jpg);
+    background-size: cover;
+    position: relative;
+    top: 130px;
+
+    border-radius: 10px;
+}
+.pic111:hover{
+    transition: ease-out 0.3s;
+    transform: scale(1.1)
+}
+.pic2{
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+    background-image: url(manchuria.jpg);
+    background-size: cover;
+    position: relative;
+    top: 130px;
+    border-radius: 10px;
+    
+}
+.pic2:hover{
+    transition: ease-out 0.3s;
+    transform: scale(1.1)
+}
+.pic3{
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+    background-image: url(veg\ noodles.jpg);
+    background-size: cover;
+    position: relative;
+    top: 130px;
+    border-radius: 10px;
+    
+}
+.pic3:hover{
+    transition: ease-out 0.3s;
+    transform: scale(1.1)
+}
+.pic4{
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+    background-image: url(chicken\ noodles.jpg);
+    background-size: cover;
+    position: relative;
+    top: 130px;
+    border-radius: 10px;
+    
+}
+.pic4:hover{
+    transition: ease-out 0.3s;
+    transform: scale(1.1)
+}
+.pic5{
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+    background-image: url(chicken\ noodles.jpg);
+    background-size: cover;
+    position: relative;
+    top: 130px;
+    border-radius: 10px;
+    
+}
+.pic5:hover{
+    transition: ease-out 0.3s;
+    transform: scale(1.1)
+}
+.row2{
+    display:flex;
+   gap: 20px;
+    position: relative;
+    top: 280px;
+    left: -1200px;
+}

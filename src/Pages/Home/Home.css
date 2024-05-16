@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.imageSlider{
+    z-index:-4;
+    flex-wrap: nowrap;
+}
+.recipes{
+    display: flex;
+    gap: 15px;
+    justify-content: space-around;
+    align-content: space-evenly;
+    margin-top: 40px;
+    height: 31vh;
+    width: 99%;
+    flex-wrap: nowrap;
+} 
+.Crecipes:hover{
+    transition: ease-out 0.3s;
+    transform: scale(1.1)
+}
+
+.Crecipes{
+    height: 30vh;
+    width: 188px;
+ 
+    color: antiquewhite;
+    background-image: url(chinese.jpg) ;
+    background-size: cover;
+    position: relative;
+    /* transition: ease-in 2s; */
+    cursor: pointer;
+   
+   
+
+}
+.Mrecipes{
+    height: 30vh;
+    width: 188px;
+    
+    background-image: url(mexican.jpg);
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+} 
+.Mrecipes:hover{
+   transition: ease-out 0.3s;
+    transform: scale(1.1)
+}
+.Erecipes{
+    height: 30vh;
+    width: 188px;
+   
+    background-image: url(middle\ Eastern.jpg);
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+}
+.Erecipes:hover{
+    transition: ease-out 0.6s;
+    transform: scale(1.1)
+}
+.Irecipes{
+    height: 30vh;
+    width: 188px;
+   
+    background-image: url(chicken\ biryani\ 10.jpg);
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+}
+.Irecipes:hover{
+    transition: ease-out 0.6s;
+    transform: scale(1.1)
+}
+.Frecipes{
+    height: 30vh;
+    width: 188px;
+   
+    background-image: url(french.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    cursor: pointer;
+    
+}
+.Frecipes:hover{
+    transition: ease-out 0.6s;
+    transform: scale(1.1)
+}
+.Krecipes{
+    height: 30vh;
+    width: 188px;
+    background-image: url(french.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    cursor: pointer;  
+}
+
+.Krecipes:hover{
+    transition: ease-out 0.6s;
+    transform: scale(1.1)
+}
+
+.Linkrecipes{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 10px;
+    
+}
+.Link{
+    height: 20px;
+    width: 60px;
+    background-color:red;
+    color: rgb(249, 248, 248);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+
+}
+.burger{
+    height: 80vh;
+    width: 1000px;
+    border: 2px solid red;
+    
+}
+.burgerpic{
+    height: 70vh;
+    width: 700px;
+    border: 2px solid rebeccapurple;
+    background-image: url(pic33.jpg);
+    background-size: cover;
+
+}
